@@ -15,7 +15,7 @@ function Footer() {
               <li>Phòng bán hàng: Khu vực Sài Gòn</li>
               <li>Địa chỉ 69 Ngô Tất Tố, phường 21, quận Bình Thạnh</li>
               <li>Điện thoại liên hệ: 0815117116</li>
-              <li>Email: phucntd.hcm@vnpt.com</li>
+              <li>Email: linhpq.hcm@vnpt.com</li>
             </ul>
           </div>
 
