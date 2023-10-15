@@ -56,7 +56,7 @@ function Footer() {
       </div>
 
       <div className="fixed bottom-12 right-10 z-50">
-        <Link href="https://www.messenger.com/t/100004078264326" className="">
+        <Link href="https://zalo.me/0815117116" className="">
           <Image
             className="animate-bounce hover:opacity-70 transtion-all mb-4"
             src="/fb2.png"
