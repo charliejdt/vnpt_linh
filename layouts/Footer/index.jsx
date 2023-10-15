@@ -5,7 +5,7 @@ function Footer() {
   // 1
   <script>
    var zalo_acc = {
-    '0815117116': '9cre2ojhk1b2',
+    "0815117116" : "9cre2ojhk1b2",
 };
     function devvnCheckLinkAvailability(link, successCallback, errorCallback) {
         var hiddenIframe = document.querySelector("#hiddenIframe");
