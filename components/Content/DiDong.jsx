@@ -44,7 +44,7 @@ function DiDong() {
                   </ul>
 
                   <Link
-                    href="https://www.messenger.com/t/100004078264326"
+                    href="zalo://qr/p/9cre2ojhk1b2"
                     target="_blank"
                     className="bg-main hover:bg-[#DC2323] hover:text-white  transition-all py-2 px-4 rounded-3xl mt-6 text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
                   >
