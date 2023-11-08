@@ -4,7 +4,25 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 function Footer() {
-  const link = LinkZalo();
+  const [link, setLink] = useState("");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const userAgent = window.navigator.userAgent;
+
+      if (userAgent.includes("Android")) {
+        setLink("https://zaloapp.com/qr/p/lee2upjc5yxk");
+      } else if (
+        userAgent.includes("iPhone") ||
+        userAgent.includes("iPad") ||
+        userAgent.includes("iPod")
+      ) {
+        setLink("zalo://qr/p/lee2upjc5yxk");
+      } else {
+        setLink("zalo://conversation?phone=0888222049");
+      }
+    }
+  }, []);
 
   return (
     <div className="bg-main p-0 md:p-6 text-white bg-[#1E73BE]">
