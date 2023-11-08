@@ -1,8 +1,28 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 function Footer() {
-  
+  const [link, setLink] = useState("");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const userAgent = window.navigator.userAgent;
+
+      if (userAgent.includes("Android")) {
+        setLink("https://zaloapp.com/qr/p/lee2upjc5yxk");
+      } else if (
+        userAgent.includes("iPhone") ||
+        userAgent.includes("iPad") ||
+        userAgent.includes("iPod")
+      ) {
+        setLink("zalo://qr/p/lee2upjc5yxk");
+      } else {
+        setLink("zalo://conversation?phone=0888222049");
+      }
+    }
+  }, []);
+
   return (
     <div className="bg-main p-0 md:p-6 text-white bg-[#1E73BE]">
       <div className="container mx-auto">
@@ -57,7 +77,7 @@ function Footer() {
       </div>
 
       <div className="fixed bottom-12 right-10 z-50">
-        <Link href="zalo://qr/p/9cre2ojhk1b2" className="">
+        <Link href={link} className="">
           <Image
             className="animate-bounce hover:opacity-70 transtion-all mb-4"
             src="/zl.png"
