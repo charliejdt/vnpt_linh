@@ -10,18 +10,18 @@ function Footer() {
       const userAgent = window.navigator.userAgent;
 
       if (userAgent.includes("Android")) {
-        setLink("https://zaloapp.com/qr/p/lee2upjc5yxk");
+        setLink("https://zaloapp.com/qr/p/9cre2ojhk1b2");
       } else if (
         userAgent.includes("iPhone") ||
         userAgent.includes("iPad") ||
         userAgent.includes("iPod")
       ) {
-        setLink("zalo://qr/p/lee2upjc5yxk");
+        setLink("zalo://qr/p/9cre2ojhk1b2");
       } else {
-        setLink("zalo://conversation?phone=0888222049");
+        setLink("zalo://conversation?phone=0815117116");
       }
     }
-  }, []);
+  }, [link]);
 
   return (
     <div className="bg-main p-0 md:p-6 text-white bg-[#1E73BE]">
