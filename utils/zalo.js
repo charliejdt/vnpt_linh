@@ -18,6 +18,6 @@ export default function LinkZalo() {
         setLink("zalo://conversation?phone=0815117116");
       }
     }
-  }, [link]);
+  }, []);
   return link;
 }
