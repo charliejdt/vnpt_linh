@@ -9,7 +9,7 @@ import Internet from "@/components/Content/Internet";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
-
+// Push
 export default function Home() {
   return (
     <Layout>
