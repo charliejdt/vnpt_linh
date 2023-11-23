@@ -1,50 +1,57 @@
 const ListData = [
   {
     id: 1,
-    tengoi: "Home 1",
+    tengoi: "Home net 1",
     tocdo: "100Mbps",
     noithanh: "không áp dụng",
     ngoaithanh: "165.000",
   },
-  
+
   {
     id: 1,
-    tengoi: "Home 2",
+    tengoi: "Home net 2",
     tocdo: "150Mbps",
     noithanh: "220.000 VNĐ/Tháng",
     ngoaithanh: "180.000",
   },
-  
+
   {
     id: 1,
-    tengoi: "Home 3",
+    tengoi: "Home net 3",
     tocdo: "200Mbps",
     noithanh: "249.000 VNĐ/Tháng",
     ngoaithanh: "209.000",
   },
-  
+
   {
     id: 1,
-    tengoi: "Home 4",
+    tengoi: "Home net 4",
     tocdo: "250Mbps",
     noithanh: "259.000 VNĐ/Tháng",
     ngoaithanh: "219.000",
   },
-  
+
   {
     id: 1,
-    tengoi: "Home 5",
+    tengoi: "Home net 5",
     tocdo: "300Mbps",
     noithanh: "289.000 VNĐ/Tháng",
     ngoaithanh: "249.000",
   },
-  
+
   {
     id: 1,
-    tengoi: "Home 6",
+    tengoi: "Home net 6",
     tocdo: "500Mbps",
     noithanh: "390.000 VNĐ/Tháng",
     ngoaithanh: "350.000",
+  },
+  {
+    id: 1,
+    tengoi: "Home 7",
+    tocdo: "300Mbps ULM",
+    noithanh: "329.000 VNĐ/Tháng",
+    ngoaithanh: "279.000",
   },
   {
     id: 1,
@@ -87,6 +94,13 @@ const ListData = [
     tocdo: "500Mbps + 3 Mesh",
     noithanh: "480.000 VNĐ/Tháng",
     ngoaithanh: "430.000",
+  },
+  {
+    id: 1,
+    tengoi: "Home mesh 7",
+    tocdo: "300Mbps ULM + 3 Mesh",
+    noithanh: "349.000 VNĐ/Tháng",
+    ngoaithanh: "299.000",
   },
 ];
 

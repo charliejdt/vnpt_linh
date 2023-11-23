@@ -16,67 +16,102 @@ function index() {
             </span>
           </h2>
           <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
-            <h2 className="text-lg md:text-xl lg:text-2xl ">
+            <h2 className="text-sm md:text-lg lg:text-xl ">
               <ul className=" py-2 md:py-4 md:p-4 border-main font-family:Arial gap-2 text-justify">
                 <li>
-                  &emsp; Năm 2023 VNPT tiếp tục đẩy mạnh và phát triển mang đến
-                  cho bạn các gói cước Internet tốc độ cao với giá ưu đãi nhất.
-                  Với tốc độ truy cập nhanh chóng, ổn định và tính năng tiện
-                  ích, các gói cước Internet VNPT năm 2023 hứa hẹn mang lại sự
-                  thuận tiện và hài lòng cho khách hàng. Dưới đây là bảng giá
-                  mới nhất:
+                  &emsp; Năm 2023 chúng tôi tiếp tục đẩy mạnh và phát triển mang
+                  đến cho bạn các gói cước Internet tốc độ cao với giá ưu đãi
+                  nhất. Với tốc độ truy cập nhanh chóng, ổn định và tính năng
+                  tiện ích, các gói cước Internet chúng tôi năm 2023 hứa hẹn
+                  mang lại sự thuận tiện và hài lòng cho khách hàng. Chính sách
+                  giá dịch vụ internet của Thành phố Hồ Chí Minh được phân chia
+                  theo 2 khu vực: Nội thành (Quận 1, 3, 4, 7, 10, 11,Tân Bình,
+                  Tân Phú, Bình Thạnh, Phú Nhuận) & Ngoại thành (Quận 2, 5, 6,
+                  8, 9, 12,Bình Tân, Gò Vấp,Thủ Đức, Hóc Môn, Củ Chi, Bình
+                  Chánh, Nhà Bè, Cần Giờ).Dưới đây là bảng giá mới nhất:
                 </li>
               </ul>
             </h2>
           </div>
+          <div className="rounded-xl p-0 md:p-0 lg:pb-6">
+            <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
+              <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+                bảng giá internet cá nhân
+              </span>
+            </h2>
+            <>
+              <p>
+                {" "}
+                <img
+                  src="/gc-in.png"
+                  alt="Dịch vụ viễn thông"
+                  width={932}
+                  height={1920}
+                  className="w-full"
+                ></img>
+              </p>
+            </>
 
-          <div className="rounded-xl md:shadow-xl text-right p-0 md:p-4 lg:p-10">
-            <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10">
-              {data.map((value) => (
-                <>
-                  <div className="border-[1px]  lg:hover:-translate-y-4 transition-all text-center shadow-2xl pb-4 rounded-xl overflow-hidden">
-                    <h3 className="uppercase  p-4 bg-main text-white text-center font-bold font-family:Arial bg-[#1E73BE] text-sm md:text-xl lg:text-2xl ">
-                      {value.tengoi}
-                    </h3>
-                    <div className="border-b-2 mx-0 md:mx-4 lg:mx-6 py-2 md:py-4 lg:py-6">
-                      <span className="block font-bold text-red-500 font-style: italic font-family:Arial text-sm md:text-lg lg:text-xl">
-                        {value.ngoaithanh} VNĐ/Tháng
-                      </span>
-                      <span className="block text-xs font-bold text-gray-500 font-style: italic font-family:Arial">
-                        (Nội thành {value.noithanh})
-                      </span>
-                      <span className="block font-semibold 	font-style: italic font-family:Arial text-xs md:text-sm lg:text-lg">
-                        Tốc độ: {value.tocdo}
-                      </span>
-                    </div>
+            <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
+            <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
+              <Link
+                href="zalo://qr/p/9cre2ojhk1b2"
+                target="_blank"
+                className=""
+              ></Link>
+              <Link
+                href="zalo://qr/p/9cre2ojhk1b2"
+                target="_blank"
+                className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
+              >
+                Liên hệ ngay
+              </Link>
+              <Link
+                href="zalo://qr/p/9cre2ojhk1b2"
+                target="_blank"
+                className=""
+              ></Link>
+            </div>
+          </div>
 
-                    <div>
-                      <ul className="p-2 md:p-4 lg:p-6 flex flex-col gap-2 text-left font-family:Arial text-xs md:text-sm lg:text-lg">
-                        {/* <li>Miễn phí lắp đặt</li> */}
-                        <li>Modem Wifi 2 băng tần</li>
-                        <li>Dịch vụ an toàn GreenNet</li>
-                        <li>Lắp đặt nhanh trong 24h</li>
-                        <li className="text-red-500 font-style: normal font-family:Arial text-xs md:text-sm lg:text-lg">
-                          Khuyến mãi 2 tháng cước
-                        </li>
-                      </ul>
-                      {/* <ul className="text-lg p-1 flex flex-col gap-2 text-left font-family:Arial text-xs md:text-sm lg:text-lg">
-                       <li className="text-red-500 font-style: normal font-family:Arial text-xs md:text-sm lg:text-lg">
-                          Khuyến mãi đến 2 tháng cước
-                          </li>
-                      </ul> */}
+          <div className="rounded-xl p-0 md:p-0 lg:pb-6">
+            <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
+              <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+                bảng giá internet cá nhân có thiết bị mesh
+              </span>
+            </h2>
+            <>
+              <p>
+                {" "}
+                <img
+                  src="/gc-inmesh.png"
+                  alt="Dịch vụ viễn thông"
+                  width={932}
+                  height={1920}
+                  className="w-full"
+                ></img>
+              </p>
+            </>
 
-                      <Link
-                        href="zalo://qr/p/9cre2ojhk1b2"
-                        target="_blank"
-                        className="bg-main hover:bg-[#DC2323] hover:text-white  transition-all py-2 px-4 rounded-3xl mt-6 text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
-                      >
-                        Liên hệ ngay
-                      </Link>
-                    </div>
-                  </div>
-                </>
-              ))}
+            <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
+            <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
+              <Link
+                href="zalo://qr/p/9cre2ojhk1b2"
+                target="_blank"
+                className=""
+              ></Link>
+              <Link
+                href="zalo://qr/p/9cre2ojhk1b2"
+                target="_blank"
+                className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
+              >
+                Liên hệ ngay
+              </Link>
+              <Link
+                href="zalo://qr/p/9cre2ojhk1b2"
+                target="_blank"
+                className=""
+              ></Link>
             </div>
           </div>
         </div>

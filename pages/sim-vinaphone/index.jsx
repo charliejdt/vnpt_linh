@@ -42,7 +42,7 @@ function Internet() {
                       <li>{value.noidung1}</li>
                       <li>{value.noidung2}</li>
                       <li>{value.noidung3}</li>
-                      {/* <li className="text-red-500 font-style: normal font-family:Arial">Khuyến mãi đến 3 tháng cước</li> */}
+                      {/* <li className="text-red-500 font-style: normal font-family:Arial">Khuyến mãi đến 2 tháng cước</li> */}
                     </span>
 
                     <Link
@@ -91,7 +91,7 @@ function Internet() {
                       {/* <li>{value.noidung1}</li> */}
                       <li>{value.noidung2}</li>
                       <li>{value.noidung3}</li>
-                      {/* <li className="text-red-500 font-style: normal font-family:Arial">Khuyến mãi đến 3 tháng cước</li> */}
+                      {/* <li className="text-red-500 font-style: normal font-family:Arial">Khuyến mãi đến 2 tháng cước</li> */}
                     </span>
 
                     <Link
@@ -139,7 +139,7 @@ function Internet() {
                       <li>{value.noidung1}</li>
                       {/* <li>{value.noidung2}</li>
                       <li>{value.noidung3}</li> */}
-                      {/* <li className="text-red-500 font-style: normal font-family:Arial">Khuyến mãi đến 3 tháng cước</li> */}
+                      {/* <li className="text-red-500 font-style: normal font-family:Arial">Khuyến mãi đến 2 tháng cước</li> */}
                     </span>
 
                     <Link

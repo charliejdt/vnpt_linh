@@ -49,7 +49,7 @@ function Banner() {
         <SwiperSlide>
           <Image
             className="w-full"
-            src="/banner10.jpg"
+            src="/banner101.jpg"
             width={1920}
             height={650}
             alt="banner"
@@ -58,25 +58,17 @@ function Banner() {
         <SwiperSlide>
           <Image
             className="w-full"
-            src="/banner6.jpg"
+            src="/banner61.jpg"
             width={1920}
             height={650}
             alt="banner"
           />
         </SwiperSlide>
+
         <SwiperSlide>
           <Image
             className="w-full"
-            src="/banner11.jpg"
-            width={1920}
-            height={650}
-            alt="banner"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            className="w-full"
-            src="/banner4.jpg"
+            src="/banner41.jpg"
             width={1920}
             height={650}
             alt="banner"
