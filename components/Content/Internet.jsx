@@ -16,7 +16,7 @@ function Internet() {
               <p>
                 {" "}
                 <img
-                  src="/gc-cb.png"
+                  src="/T12_sanh.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}

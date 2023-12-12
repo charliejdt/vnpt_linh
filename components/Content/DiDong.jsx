@@ -16,7 +16,7 @@ function DiDong() {
               <p>
                 {" "}
                 <img
-                  src="/gc-dn.png"
+                  src="/T12_dn_vua.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}

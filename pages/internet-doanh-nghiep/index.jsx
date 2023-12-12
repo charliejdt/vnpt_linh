@@ -2,9 +2,10 @@ import Layout from "@/layouts/Layout";
 import TruyenHinhDiDong from "@/utils/truyenhinh";
 import Link from "next/link";
 import React from "react";
+import LinkZalo from "@/utils/zalo";
 
 function DiDong() {
-  const data = TruyenHinhDiDong;
+  const link = LinkZalo();
   return (
     <Layout>
       <div className="container mx-auto pt-4 sm:text-sm md:text-lg ">
@@ -48,23 +49,15 @@ function DiDong() {
 
           <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
           <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
+            <Link href={link} target="_blank" className=""></Link>
             <Link
-              href="zalo://qr/p/9cre2ojhk1b2"
-              target="_blank"
-              className=""
-            ></Link>
-            <Link
-              href="zalo://qr/p/9cre2ojhk1b2"
+              href={link}
               target="_blank"
               className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
             >
               Liên hệ ngay
             </Link>
-            <Link
-              href="zalo://qr/p/9cre2ojhk1b2"
-              target="_blank"
-              className=""
-            ></Link>
+            <Link href={link} target="_blank" className=""></Link>
           </div>
         </div>
 
@@ -89,23 +82,15 @@ function DiDong() {
 
           <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
           <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
+            <Link href={link} target="_blank" className=""></Link>
             <Link
-              href="zalo://qr/p/9cre2ojhk1b2"
-              target="_blank"
-              className=""
-            ></Link>
-            <Link
-              href="zalo://qr/p/9cre2ojhk1b2"
+              href={link}
               target="_blank"
               className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
             >
               Liên hệ ngay
             </Link>
-            <Link
-              href="zalo://qr/p/9cre2ojhk1b2"
-              target="_blank"
-              className=""
-            ></Link>
+            <Link href={link} target="_blank" className=""></Link>
           </div>
         </div>
 
@@ -130,23 +115,15 @@ function DiDong() {
 
           <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
           <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
+            <Link href={link} target="_blank" className=""></Link>
             <Link
-              href="zalo://qr/p/9cre2ojhk1b2"
-              target="_blank"
-              className=""
-            ></Link>
-            <Link
-              href="zalo://qr/p/9cre2ojhk1b2"
+              href={link}
               target="_blank"
               className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
             >
               Liên hệ ngay
             </Link>
-            <Link
-              href="zalo://qr/p/9cre2ojhk1b2"
-              target="_blank"
-              className=""
-            ></Link>
+            <Link href={link} target="_blank" className=""></Link>
           </div>
         </div>
       </div>

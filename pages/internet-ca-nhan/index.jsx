@@ -2,9 +2,10 @@ import ListData from "@/utils/data";
 import Layout from "@/layouts/Layout";
 import Link from "next/link";
 import React from "react";
+import LinkZalo from "@/utils/zalo";
 
 function index() {
-  const data = ListData;
+  const link1 = LinkZalo();
 
   return (
     <div>
@@ -36,14 +37,32 @@ function index() {
           <div className="rounded-xl p-0 md:p-0 lg:pb-6">
             <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
               <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
-                bảng giá internet cá nhân
+                bảng giá internet - ngoại thành
               </span>
             </h2>
             <>
               <p>
                 {" "}
                 <img
-                  src="/gc-in.png"
+                  src="/T12_in_ngoai.png"
+                  alt="Dịch vụ viễn thông"
+                  width={932}
+                  height={1920}
+                  className="w-full"
+                ></img>
+              </p>
+            </>
+
+            <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
+              <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6">
+                bảng giá internet - nội thành
+              </span>
+            </h2>
+            <>
+              <p>
+                {" "}
+                <img
+                  src="/T12_in.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}
@@ -54,37 +73,46 @@ function index() {
 
             <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
             <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
+              <Link href={link1} className=""></Link>
               <Link
-                href="zalo://qr/p/9cre2ojhk1b2"
-                target="_blank"
-                className=""
-              ></Link>
-              <Link
-                href="zalo://qr/p/9cre2ojhk1b2"
-                target="_blank"
+                href={link1}
                 className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
               >
                 Liên hệ ngay
               </Link>
-              <Link
-                href="zalo://qr/p/9cre2ojhk1b2"
-                target="_blank"
-                className=""
-              ></Link>
+              <Link href={link1} className=""></Link>
             </div>
           </div>
 
           <div className="rounded-xl p-0 md:p-0 lg:pb-6">
             <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
               <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
-                bảng giá internet cá nhân có thiết bị mesh
+                bảng giá internet có thiết bị mesh - ngoại thành
               </span>
             </h2>
             <>
               <p>
                 {" "}
                 <img
-                  src="/gc-inmesh.png"
+                  src="/T12_mesh_ngoai.png"
+                  alt="Dịch vụ viễn thông"
+                  width={932}
+                  height={1920}
+                  className="w-full"
+                ></img>
+              </p>
+            </>
+
+            <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
+              <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6">
+                bảng giá internet có thiết bị mesh - nội thành
+              </span>
+            </h2>
+            <>
+              <p>
+                {" "}
+                <img
+                  src="/T12_mesh.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}
@@ -95,23 +123,14 @@ function index() {
 
             <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
             <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
+              <Link href={link1} className=""></Link>
               <Link
-                href="zalo://qr/p/9cre2ojhk1b2"
-                target="_blank"
-                className=""
-              ></Link>
-              <Link
-                href="zalo://qr/p/9cre2ojhk1b2"
-                target="_blank"
+                href={link1}
                 className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
               >
                 Liên hệ ngay
               </Link>
-              <Link
-                href="zalo://qr/p/9cre2ojhk1b2"
-                target="_blank"
-                className=""
-              ></Link>
+              <Link href={link1} className=""></Link>
             </div>
           </div>
         </div>

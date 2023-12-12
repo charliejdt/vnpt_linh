@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/sim-vinaphone": [
+    "/internet-ca-nhan": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/sim-vinaphone.js"
+      "static/chunks/pages/internet-ca-nhan.js"
     ]
   },
   "ampFirstPages": []

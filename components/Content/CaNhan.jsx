@@ -16,7 +16,7 @@ function CaNhan() {
               <p>
                 {" "}
                 <img
-                  src="/gc-in.png"
+                  src="/T12_in_ngoai.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}
