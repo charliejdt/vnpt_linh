@@ -5,7 +5,7 @@ import React from "react";
 import LinkZalo from "@/utils/zalo";
 
 function DiDong() {
-  const link = LinkZalo();
+  const linkDn = LinkZalo();
   return (
     <Layout>
       <div className="container mx-auto pt-4 sm:text-sm md:text-lg ">
@@ -31,14 +31,25 @@ function DiDong() {
         <div className="rounded-xl p-0 md:p-0 lg:pb-6">
           <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
             <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
-              Bảng giá internet doanh nghiệp nhỏ
+              Bảng giá internet FiberIoT, FiberXtra:
             </span>
           </h2>
+          <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
+            <h2 className="text-sm md:text-lg lg:text-xl ">
+              <ul className="  border-main font-family:Arial gap-2 text-justify">
+                <li>
+                  &emsp; Gói cước sử dụng dịch vụ để triển khai các giải pháp
+                  IoT, các dự án camera,..., truy cập và triển khai các ứng dụng
+                  sử dụng băng thông trong nước là chủ yếu.
+                </li>
+              </ul>
+            </h2>
+          </div>
           <>
             <p>
               {" "}
               <img
-                src="/gc-extra.png"
+                src="/T12_extra.png"
                 alt="Dịch vụ viễn thông"
                 width={932}
                 height={1920}
@@ -49,29 +60,39 @@ function DiDong() {
 
           <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
           <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
-            <Link href={link} target="_blank" className=""></Link>
+            <Link href={linkDn} className=""></Link>
             <Link
-              href={link}
-              target="_blank"
+              href={linkDn}
               className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
             >
               Liên hệ ngay
             </Link>
-            <Link href={link} target="_blank" className=""></Link>
+            <Link href={linkDn} className=""></Link>
           </div>
         </div>
 
         <div className="rounded-xl p-0 md:p-0 lg:pb-6">
           <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
             <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
-              Bảng giá internet doanh nghiệp vừa
+              Bảng giá internet FiberS, Fiber Wifi
             </span>
           </h2>
+          <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
+            <h2 className="text-sm md:text-lg lg:text-xl ">
+              <ul className="  border-main font-family:Arial gap-2 text-justify">
+                <li>
+                  &emsp; Gói cước sử dụng dịch vụ để truy cập Internet (cung cấp
+                  wifi tại các khu vực công cộng,...) hoặc triển khai các ứng
+                  dụng chỉ sử dụng IP động.
+                </li>
+              </ul>
+            </h2>
+          </div>
           <>
             <p>
               {" "}
               <img
-                src="/gc-fibers.png"
+                src="/T12_fibers.png"
                 alt="Dịch vụ viễn thông"
                 width={932}
                 height={1920}
@@ -82,29 +103,72 @@ function DiDong() {
 
           <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
           <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
-            <Link href={link} target="_blank" className=""></Link>
+            <Link href={linkDn} className=""></Link>
             <Link
-              href={link}
-              target="_blank"
+              href={linkDn}
               className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
             >
               Liên hệ ngay
             </Link>
-            <Link href={link} target="_blank" className=""></Link>
+            <Link href={linkDn} className=""></Link>
           </div>
         </div>
 
         <div className="rounded-xl p-0 md:p-0 lg:pb-6">
           <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
             <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+              Bảng giá internet doanh nghiệp vừa và nhỏ
+            </span>
+          </h2>
+
+          <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
+            <h2 className="text-sm md:text-lg lg:text-xl ">
+              <ul className="  border-main font-family:Arial gap-2 text-justify">
+                <li>
+                  &emsp; Gói cước hàng yêu cầu chất lượng dịch vụ cao, cam kết
+                  tốc độ quốc tế cao. Đáp ứng nhu cầu sử dụng dịch vụ để truy
+                  cập, cũng như triển khai các ứng trên nền Internet với chất
+                  lượng cao.
+                </li>
+              </ul>
+            </h2>
+          </div>
+          <>
+            <p>
+              {" "}
+              <img
+                src="/T12_dn_vua.png"
+                alt="Dịch vụ viễn thông"
+                width={932}
+                height={1920}
+                className="w-full"
+              ></img>
+            </p>
+          </>
+
+          <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
+            <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6">
               Bảng giá internet doanh nghiệp lớn
             </span>
           </h2>
+
+          <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
+            <h2 className="text-sm md:text-lg lg:text-xl ">
+              <ul className="  border-main font-family:Arial gap-2 text-justify">
+                <li>
+                  &emsp; Gói cước hàng yêu cầu chất lượng dịch vụ cao, cam kết
+                  tốc độ quốc tế cao. Đáp ứng nhu cầu sử dụng dịch vụ để truy
+                  cập, cũng như triển khai các ứng trên nền Internet với chất
+                  lượng cao.
+                </li>
+              </ul>
+            </h2>
+          </div>
           <>
             <p>
               {" "}
               <img
-                src="/gc-dn.png"
+                src="/T12_dn.png"
                 alt="Dịch vụ viễn thông"
                 width={932}
                 height={1920}
@@ -112,18 +176,16 @@ function DiDong() {
               ></img>
             </p>
           </>
-
           <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
           <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
-            <Link href={link} target="_blank" className=""></Link>
+            <Link href={linkDn} className=""></Link>
             <Link
-              href={link}
-              target="_blank"
+              href={linkDn}
               className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
             >
               Liên hệ ngay
             </Link>
-            <Link href={link} target="_blank" className=""></Link>
+            <Link href={linkDn} className=""></Link>
           </div>
         </div>
       </div>

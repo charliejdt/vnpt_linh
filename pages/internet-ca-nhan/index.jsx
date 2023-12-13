@@ -86,7 +86,7 @@ function index() {
 
           <div className="rounded-xl p-0 md:p-0 lg:pb-6">
             <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
-              <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+              <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 ">
                 bảng giá internet có thiết bị mesh - ngoại thành
               </span>
             </h2>
