@@ -49,7 +49,7 @@ function DiDong() {
             <p>
               {" "}
               <img
-                src="/T12_extra.png"
+                src="/T12_extra1.png"
                 alt="Dịch vụ viễn thông"
                 width={932}
                 height={1920}
@@ -92,7 +92,7 @@ function DiDong() {
             <p>
               {" "}
               <img
-                src="/T12_fibers.png"
+                src="/T12_fibers1.png"
                 alt="Dịch vụ viễn thông"
                 width={932}
                 height={1920}
