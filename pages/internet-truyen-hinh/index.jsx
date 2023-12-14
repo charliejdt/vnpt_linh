@@ -26,11 +26,8 @@ function index() {
                   lại, dừng lại, tua nhanh. Với chất lượng hình ảnh và âm thanh
                   cao cấp, MyTV mang đến trải nghiệm giải trí tuyệt vời cho
                   người dùng.Chính sách giá dịch vụ internet của Thành phố Hồ
-                  Chí Minh được phân chia theo 2 khu vực: Nội thành (Quận 1, 3,
-                  4, 7, 10, 11,Tân Bình, Tân Phú, Bình Thạnh, Phú Nhuận) & Ngoại
-                  thành (Quận 2, 5, 6, 8, 9, 12,Bình Tân, Gò Vấp,Thủ Đức, Hóc
-                  Môn, Củ Chi, Bình Chánh, Nhà Bè, Cần Giờ). Dưới đây là bảng
-                  giá mới nhất:
+                  Chí Minh được phân chia theo 2 khu vực: Nội thành & Ngoại
+                  thành. Dưới đây là bảng giá mới nhất:
                 </li>
               </ul>
             </h2>
@@ -41,6 +38,17 @@ function index() {
                 bảng giá internet và truyền hình - ngoại thành
               </span>
             </h2>
+            <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
+              <h2 className="text-sm md:text-lg lg:text-xl ">
+                <ul className=" py-2 md:py-4 md:p-4 border-main font-family:Arial gap-2 text-justify">
+                  <li>
+                    &emsp; Ngoại thành bao gồm các quận (2, 5, 6, 8, 9, 12, Bình
+                    Tân, Gò Vấp,Thủ Đức, Hóc Môn, Củ Chi, Bình Chánh, Nhà Bè,
+                    Cần Giờ).
+                  </li>
+                </ul>
+              </h2>
+            </div>
             <>
               <p>
                 {" "}
@@ -58,6 +66,16 @@ function index() {
                 bảng giá internet và truyền hình - nội thành
               </span>
             </h2>
+            <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
+              <h2 className="text-sm md:text-lg lg:text-xl ">
+                <ul className=" py-2 md:py-4 md:p-4 border-main font-family:Arial gap-2 text-justify">
+                  <li>
+                    &emsp; Nội thành bao gồm các quận (1, 3, 4, 7, 10, 11,Tân
+                    Bình, Tân Phú, Bình Thạnh, Phú Nhuận).
+                  </li>
+                </ul>
+              </h2>
+            </div>
             <>
               <p>
                 {" "}
@@ -90,6 +108,17 @@ function index() {
                 bảng giá internet và truyền hình + mesh - ngoại thành
               </span>
             </h2>
+            <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
+              <h2 className="text-sm md:text-lg lg:text-xl ">
+                <ul className=" py-2 md:py-4 md:p-4 border-main font-family:Arial gap-2 text-justify">
+                  <li>
+                    &emsp; Ngoại thành bao gồm các quận (2, 5, 6, 8, 9, 12, Bình
+                    Tân, Gò Vấp,Thủ Đức, Hóc Môn, Củ Chi, Bình Chánh, Nhà Bè,
+                    Cần Giờ).
+                  </li>
+                </ul>
+              </h2>
+            </div>
             <>
               <p>
                 {" "}
@@ -108,6 +137,16 @@ function index() {
                 bảng giá internet và truyền hình + mesh - nội thành
               </span>
             </h2>
+            <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
+              <h2 className="text-sm md:text-lg lg:text-xl ">
+                <ul className=" py-2 md:py-4 md:p-4 border-main font-family:Arial gap-2 text-justify">
+                  <li>
+                    &emsp; Nội thành bao gồm các quận (1, 3, 4, 7, 10, 11,Tân
+                    Bình, Tân Phú, Bình Thạnh, Phú Nhuận).
+                  </li>
+                </ul>
+              </h2>
+            </div>
             <>
               <p>
                 {" "}

@@ -1,1 +1,0 @@
-self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],"/internet-doanh-nghiep":["static\u002Fchunks\u002Fpages\u002Finternet-doanh-nghiep.js"],sortedPages:["\u002F_app","\u002F_error","\u002Finternet-doanh-nghiep"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

@@ -18,8 +18,8 @@ function Footer() {
               <li>Website của NVKD: Phạm Quang Linh</li>
               <li>Phòng bán hàng: Khu vực Sài Gòn</li>
               <li>
-                Địa chỉ: 121 Paster, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí
-                Minh
+                Địa chỉ: 121 Pasteur, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ
+                Chí Minh
               </li>
               <li>Điện thoại liên hệ: 0815117116</li>
               <li>Email: linhpq.hcm@vnpt.com</li>
@@ -60,8 +60,8 @@ function Footer() {
                 21/07/2015
               </li>
               <li>
-                Địa chỉ: 121 Paster, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ Chí
-                Minh
+                Địa chỉ: 121 Pasteur, Phường Võ Thị Sáu, Quận 3, Thành phố Hồ
+                Chí Minh
               </li>
               <li className="hover:translate-x-3 transition-all">
                 <Link href="/chinhsachbaomat">Chính sách bảo mật</Link>
