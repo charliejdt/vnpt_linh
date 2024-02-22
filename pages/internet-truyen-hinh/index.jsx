@@ -34,13 +34,13 @@ function index() {
           </div>
           <div className="rounded-xl p-0 md:p-0 lg:pb-6">
             <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
-              <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+              <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
                 bảng giá internet và truyền hình - ngoại thành
               </span>
             </h2>
             <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
               <h2 className="text-sm md:text-lg lg:text-xl ">
-                <ul className=" py-2 md:py-4 md:p-4 border-main font-family:Arial gap-2 text-justify">
+                <ul className=" md:p-4 border-main font-family:Arial gap-2 text-justify">
                   <li>
                     &emsp; Ngoại thành bao gồm các quận (2, 5, 6, 8, 9, 12, Bình
                     Tân, Gò Vấp,Thủ Đức, Hóc Môn, Củ Chi, Bình Chánh, Nhà Bè,
@@ -53,7 +53,7 @@ function index() {
               <p>
                 {" "}
                 <img
-                  src="/T12_MYTV_ngoai.png"
+                  src="/2024_mytv_ngoai.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}
@@ -62,13 +62,13 @@ function index() {
               </p>
             </>
             <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
-              <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6">
+              <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6">
                 bảng giá internet và truyền hình - nội thành
               </span>
             </h2>
             <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
               <h2 className="text-sm md:text-lg lg:text-xl ">
-                <ul className=" py-2 md:py-4 md:p-4 border-main font-family:Arial gap-2 text-justify">
+                <ul className=" md:p-4 border-main font-family:Arial gap-2 text-justify">
                   <li>
                     &emsp; Nội thành bao gồm các quận (1, 3, 4, 7, 10, 11,Tân
                     Bình, Tân Phú, Bình Thạnh, Phú Nhuận).
@@ -80,7 +80,7 @@ function index() {
               <p>
                 {" "}
                 <img
-                  src="/T12_MYTV.png"
+                  src="/2024_mytv.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}
@@ -104,13 +104,13 @@ function index() {
 
           <div className="rounded-xl p-0 md:p-0 lg:pb-6">
             <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
-              <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+              <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
                 bảng giá internet và truyền hình + mesh - ngoại thành
               </span>
             </h2>
             <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
               <h2 className="text-sm md:text-lg lg:text-xl ">
-                <ul className=" py-2 md:py-4 md:p-4 border-main font-family:Arial gap-2 text-justify">
+                <ul className=" md:p-4 border-main font-family:Arial gap-2 text-justify">
                   <li>
                     &emsp; Ngoại thành bao gồm các quận (2, 5, 6, 8, 9, 12, Bình
                     Tân, Gò Vấp,Thủ Đức, Hóc Môn, Củ Chi, Bình Chánh, Nhà Bè,
@@ -123,7 +123,7 @@ function index() {
               <p>
                 {" "}
                 <img
-                  src="/T12_MYTV_mesh_ngoai.png"
+                  src="/2024_mytv_mesh_ngoai.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}
@@ -133,13 +133,13 @@ function index() {
             </>
 
             <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
-              <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6">
+              <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6">
                 bảng giá internet và truyền hình + mesh - nội thành
               </span>
             </h2>
             <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
               <h2 className="text-sm md:text-lg lg:text-xl ">
-                <ul className=" py-2 md:py-4 md:p-4 border-main font-family:Arial gap-2 text-justify">
+                <ul className=" md:p-4 border-main font-family:Arial gap-2 text-justify">
                   <li>
                     &emsp; Nội thành bao gồm các quận (1, 3, 4, 7, 10, 11,Tân
                     Bình, Tân Phú, Bình Thạnh, Phú Nhuận).
@@ -151,7 +151,7 @@ function index() {
               <p>
                 {" "}
                 <img
-                  src="/T12_MYTV_mesh.png"
+                  src="/2024_mytv_mesh.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}

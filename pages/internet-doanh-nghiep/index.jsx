@@ -29,35 +29,6 @@ function DiDong() {
           </h2>
         </div>
         <div className="rounded-xl p-0 md:p-0 lg:pb-6">
-          <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
-            <span className=" inline-block pb-2 md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
-              Bảng giá internet FiberIoT, FiberXtra:
-            </span>
-          </h2>
-          <div className="rounded-xl text-right p-0 md:p-0 lg:p-0">
-            <h2 className="text-sm md:text-lg lg:text-xl ">
-              <ul className="  border-main font-family:Arial gap-2 text-justify">
-                <li>
-                  &emsp; Gói cước sử dụng dịch vụ để triển khai các giải pháp
-                  IoT, các dự án camera,..., truy cập và triển khai các ứng dụng
-                  sử dụng băng thông trong nước là chủ yếu.
-                </li>
-              </ul>
-            </h2>
-          </div>
-          <>
-            <p>
-              {" "}
-              <img
-                src="/T12_extra1.png"
-                alt="Dịch vụ viễn thông"
-                width={932}
-                height={1920}
-                className="w-full"
-              ></img>
-            </p>
-          </>
-
           <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
           <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
             <Link href={linkDn} className=""></Link>
@@ -92,7 +63,7 @@ function DiDong() {
             <p>
               {" "}
               <img
-                src="/T12_fibers1.png"
+                src="/2024_fibers.png"
                 alt="Dịch vụ viễn thông"
                 width={932}
                 height={1920}
@@ -137,7 +108,7 @@ function DiDong() {
             <p>
               {" "}
               <img
-                src="/T12_dn_vua.png"
+                src="/2024_dn_vua.png"
                 alt="Dịch vụ viễn thông"
                 width={932}
                 height={1920}
@@ -168,7 +139,7 @@ function DiDong() {
             <p>
               {" "}
               <img
-                src="/T12_dn.png"
+                src="/2024_dn_lon.png"
                 alt="Dịch vụ viễn thông"
                 width={932}
                 height={1920}

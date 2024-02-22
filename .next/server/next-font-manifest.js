@@ -1,1 +1,6 @@
-self.__NEXT_FONT_MANIFEST={pages:{},app:{'/Users/phamquanglinh/Documents/Code/vnpt_wifi/node_modules/next/font/google/target.css?{"path":"pages/index.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"}':["static/media/c9a5bc6a7c948fb0-s.p.woff2"]},appUsingSizeAdjust:!0,pagesUsingSizeAdjust:!1};
+self.__NEXT_FONT_MANIFEST={
+  "pages": {},
+  "app": {},
+  "appUsingSizeAdjust": false,
+  "pagesUsingSizeAdjust": false
+}

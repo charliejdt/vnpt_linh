@@ -16,7 +16,7 @@ function Internet() {
               <p>
                 {" "}
                 <img
-                  src="/T12_sanh.png"
+                  src="/2024_sanh.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}
@@ -28,7 +28,7 @@ function Internet() {
           <div className="pt-2 md:pt-4">
             <Link
               className="d-block px-4 py-2 rounded-lg mt-12 bg-black text-xs md:text-lg text-white hover:bg-[#DC2323] hover:text-white font-style: italic text-decoration-line: underline"
-              href="/internet-ca-nhan"
+              href="/internet-va-di-dong"
             >
               Xem thêm
             </Link>

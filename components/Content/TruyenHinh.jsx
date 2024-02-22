@@ -16,7 +16,7 @@ function TruyenHinh() {
               <p>
                 {" "}
                 <img
-                  src="/T12_MYTV_ngoai.png"
+                  src="/2024_mytv_ngoai.png"
                   alt="Dịch vụ viễn thông"
                   width={932}
                   height={1920}
