@@ -26,9 +26,9 @@ function Header() {
         <div className=" py-2 sm:py-2 md:py-3 lg:py-4  flex justify-between  items-center">
           <Link href="/" className="inline-block lg:w-[130px] lg:h-[33px]">
             <Image
-              src={"/logo_vnpt_xanh.png"}
-              width={130}
-              height={33}
+              src={"/nuocmiamixsaurieng.jpg"}
+              width={195}
+              height={49.5}
               className="w-auto"
               alt="logo"
             />
