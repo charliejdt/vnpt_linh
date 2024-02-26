@@ -23,7 +23,6 @@ function Footer() {
                 Chí Minh
               </li>
               <li>Điện thoại liên hệ: 0815117116</li>
-              <li>Email: linhpq.hcm@vnpt.com</li>
             </ul>
           </div>
 
