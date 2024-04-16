@@ -29,11 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/internet-ca-nhan.js"
-    ],
-    "/internet-doanh-nghiep": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/internet-doanh-nghiep.js"
     ]
   },
   "ampFirstPages": []

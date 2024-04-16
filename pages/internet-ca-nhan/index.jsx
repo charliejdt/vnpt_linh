@@ -92,14 +92,20 @@ function index() {
 
             <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
             <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
-              <Link href="tel:0815117116" className=""></Link>
+              {/* <Link href="tel:0815117116" className=""></Link> */}
+              <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
+                <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6"></span>
+              </h2>
               <Link
                 href="tel:0815117116"
                 className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
               >
                 Liên hệ ngay - 0815117116
               </Link>
-              <Link href="tel:0815117116" className=""></Link>
+              <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
+                <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6"></span>
+              </h2>
+              {/* <Link href="tel:0815117116" className=""></Link> */}
             </div>
           </div>
 
@@ -163,14 +169,20 @@ function index() {
 
             <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
             <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
-              <Link href="tel:0815117116" className=""></Link>
+              {/* <Link href="tel:0815117116" className=""></Link> */}
+              <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
+                <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6"></span>
+              </h2>
               <Link
                 href="tel:0815117116"
                 className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
               >
                 Liên hệ ngay - 0815117116
               </Link>
-              <Link href="tel:0815117116" className=""></Link>
+              <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
+                <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6"></span>
+              </h2>
+              {/* <Link href="tel:0815117116" className=""></Link> */}
             </div>
             <h2 className="uppercase mb-1 font-bold text-left text-sm md:text-xl lg:text-2xl text-gray-900">
               <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
