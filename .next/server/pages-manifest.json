@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/internet-truyen-hinh": "pages/internet-truyen-hinh.js",
+  "/internet-doanh-nghiep": "pages/internet-doanh-nghiep.js"
 }

@@ -7,7 +7,7 @@ import React from "react";
 import LinkZalo from "@/utils/zalo";
 
 function Internet() {
-  const linkCb = LinkZalo();
+  // const linkCb = LinkZalo();
   return (
     <Layout>
       <div className="container mx-auto pt-4 sm:text-sm md:text-lg ">
@@ -46,17 +46,21 @@ function Internet() {
               ></img>
             </p>
           </>
-
+          <h2 className="uppercase mb-0 font-bold text-sm md:text-xl lg:text-2xl text-gray-900">
+            <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+              Hotline lắp mạng VNPT: 0815117116
+            </span>
+          </h2>
           <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
           <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
-            <Link href={linkCb} className=""></Link>
+            <Link href="tel:0815117116" className=""></Link>
             <Link
-              href={linkCb}
+              href="tel:0815117116"
               className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
             >
               Liên hệ ngay
             </Link>
-            <Link href={linkCb} className=""></Link>
+            <Link href="tel:0815117116" className=""></Link>
           </div>
         </div>
 
@@ -78,17 +82,21 @@ function Internet() {
               ></img>
             </p>
           </>
-
+          <h2 className="uppercase mb-0 font-bold text-sm md:text-xl lg:text-2xl text-gray-900">
+            <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+              Hotline lắp mạng VNPT: 0815117116
+            </span>
+          </h2>
           <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
           <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
-            <Link href={linkCb} className=""></Link>
+            <Link href="tel:0815117116" className=""></Link>
             <Link
-              href={linkCb}
+              href="tel:0815117116"
               className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
             >
               Liên hệ ngay
             </Link>
-            <Link href={linkCb} className=""></Link>
+            <Link href="tel:0815117116" className=""></Link>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import Internet from "@/utils/internet";
 import Link from "next/link";
 import LinkZalo from "@/utils/zalo";
 function index() {
-  const linkCn = LinkZalo();
+  // const linkCn = LinkZalo();
 
   return (
     <div>
@@ -61,6 +61,11 @@ function index() {
                 ></img>
               </p>
             </>
+            <h2 className="uppercase mb-0 font-bold text-sm md:text-xl lg:text-2xl text-gray-900">
+              <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+                Hotline lắp mạng VNPT: 0815117116
+              </span>
+            </h2>
             <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
               <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6">
                 bảng giá internet và truyền hình - nội thành
@@ -88,17 +93,21 @@ function index() {
                 ></img>
               </p>
             </>
-
+            <h2 className="uppercase mb-0 font-bold text-sm md:text-xl lg:text-2xl text-gray-900">
+              <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+                Hotline lắp mạng VNPT: 0815117116
+              </span>
+            </h2>
             <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
             <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
-              <Link href={linkCn} className=""></Link>
+              <Link href="tel:0815117116" className=""></Link>
               <Link
-                href={linkCn}
+                href="tel:0815117116"
                 className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
               >
                 Liên hệ ngay
               </Link>
-              <Link href={linkCn} className=""></Link>
+              <Link href="tel:0815117116" className=""></Link>
             </div>
           </div>
 
@@ -131,7 +140,11 @@ function index() {
                 ></img>
               </p>
             </>
-
+            <h2 className="uppercase mb-0 font-bold text-sm md:text-xl lg:text-2xl text-gray-900">
+              <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+                Hotline lắp mạng VNPT: 0815117116
+              </span>
+            </h2>
             <h2 className="uppercase mb-1 font-bold text-center text-sm md:text-xl lg:text-2xl text-gray-900">
               <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6 sm:pt-2 md:pt-4 lg:pt-6">
                 bảng giá internet và truyền hình + mesh - nội thành
@@ -159,17 +172,21 @@ function index() {
                 ></img>
               </p>
             </>
-
+            <h2 className="uppercase mb-0 font-bold text-sm md:text-xl lg:text-2xl text-gray-900">
+              <span className=" inline-block md:pb-2 lg:pb-2 border-main sm:pr-2 md:pr-4 lg:pr-6">
+                Hotline lắp mạng VNPT: 0815117116
+              </span>
+            </h2>
             <div className="grid  md:grid-cols-3 grid-cols-2 mb-8 gap-2 md:gap-4 lg:gap-10"></div>
             <div className="grid  md:grid-cols-3 grid-cols-3 mb-8 gap-1 md:gap-1 lg:gap-1 justify-center">
-              <Link href={linkCn} className=""></Link>
+              <Link href="tel:0815117116" className=""></Link>
               <Link
-                href={linkCn}
+                href="tel:0815117116"
                 className="bg-main hover:bg-[#DC2323] hover:text-white text-center transition-all py-2 px-4 rounded-3xl text-white uppercase bg-[#1E73BE] text-xs md:text-sm lg:text-lg"
               >
                 Liên hệ ngay
               </Link>
-              <Link href={linkCn} className=""></Link>
+              <Link href="tel:0815117116" className=""></Link>
             </div>
           </div>
         </div>
