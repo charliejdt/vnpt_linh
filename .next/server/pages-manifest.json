@@ -1,6 +1,16 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/_app": "pages/_app.js",
+  "/chinhsachbaomat": "pages/chinhsachbaomat.html",
+  "/": "pages/index.html",
+  "/internet-ca-nhan": "pages/internet-ca-nhan.html",
+  "/internet-doanh-nghiep": "pages/internet-doanh-nghiep.html",
+  "/internet-va-di-dong": "pages/internet-va-di-dong.html",
+  "/internet-va-di-dong2": "pages/internet-va-di-dong2.html",
+  "/internet-truyen-hinh": "pages/internet-truyen-hinh.html",
+  "/internet-va-di-dong3": "pages/internet-va-di-dong3.html",
+  "/sim-vinaphone": "pages/sim-vinaphone.html",
+  "/lien-he": "pages/lien-he.html",
+  "/404": "pages/404.html"
 }
